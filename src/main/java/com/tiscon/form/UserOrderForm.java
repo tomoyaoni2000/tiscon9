@@ -48,6 +48,26 @@ public class UserOrderForm {
 
     @Numeric
     @NotBlank
+    private String shelf;
+
+    @Numeric
+    @NotBlank
+    private String bookshelf;
+
+    @Numeric
+    @NotBlank
+    private String table;
+
+    @Numeric
+    @NotBlank
+    private String refrigerator;
+
+    @Numeric
+    @NotBlank
+    private String telev;
+
+    @Numeric
+    @NotBlank
     private String bed;
 
     @Numeric
@@ -151,6 +171,45 @@ public class UserOrderForm {
         this.bicycle = bicycle;
     }
 
+    public String getShelf() {
+        return shelf;
+    }
+
+    public void setShelf(String shelf) {
+        this.shelf = shelf;
+    }
+
+    public String getBookshelf() {
+        return bookshelf;
+    }
+
+    public void setBookshelf(String bookshelf) {
+        this.bookshelf = bookshelf;
+    }
+
+    public String getTable() {
+        return table;
+    }
+
+    public void setTable(String table) {
+        this.table = table;
+    }
+    public String getRefrigerator() {
+        return refrigerator;
+    }
+
+    public void setRefrigerator(String refrigerator) {
+        this.refrigerator = refrigerator;
+    }
+    public String getTelev() {
+        return telev;
+    }
+
+    public void setTelev(String telev) {
+        this.telev = telev;
+    }
+
+    
     public String getWashingMachine() {
         return washingMachine;
     }
