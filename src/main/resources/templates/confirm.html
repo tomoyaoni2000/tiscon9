@@ -98,6 +98,13 @@
             <td><span th:text="*{box}"></span></td>
             <input type="hidden" name="box" id="box" th:value="*{box}"/>
           </tr>
+          <!-- 家具の項目を追加: ここから -->
+          <tr>
+            <th>サンプルの個数</th>
+            <td><span th:text="*{sample}"></span></td>
+            <input type="hidden" name="sample" id="sample" th:value="*{sample}"/>
+          </tr>
+          <!-- 家具の項目を追加: ここまで -->
           <tr>
             <th>ベッドの個数</th>
             <td><span th:text="*{bed}"></span></td>

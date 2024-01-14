@@ -40,6 +40,12 @@ public class UserOrderForm {
     @NotBlank
     private String box;
 
+    // 家具の項目を追加: ここから
+    @Numeric
+    @NotBlank
+    private String sample;
+    // 家具の項目を追加: ここまで
+
     @Numeric
     @NotBlank
     private String bed;
@@ -118,6 +124,16 @@ public class UserOrderForm {
     public void setBox(String box) {
         this.box = box;
     }
+
+    // 家具の項目を追加: ここから
+    public String getSample() {
+        return sample;
+    }
+
+    public void setSample(String sample) {
+        this.sample = sample;
+    }
+    // 家具の項目を追加: ここまで
 
     public String getBed() {
         return bed;

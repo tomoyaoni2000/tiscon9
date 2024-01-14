@@ -68,6 +68,12 @@
           <label for="box">段ボールの個数</label>
           <input type="text" id="box" name="box" th:field="*{box}" class="form-control" value="10" required/>
         </div>
+        <!-- 家具の項目を追加: ここから -->
+        <div class="form-group">
+          <label for="bed">サンプルの個数</label>
+          <input type="text" id="sample" name="sample" th:field="*{sample}" class="form-control" value="3" required/>
+        </div>
+        <!-- 家具の項目を追加: ここまで -->
         <div class="form-group">
           <label for="bed">ベッドの個数</label>
           <input type="text" id="bed" name="bed" th:field="*{bed}" class="form-control" value="3" required/>

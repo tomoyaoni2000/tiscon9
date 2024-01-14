@@ -78,6 +78,7 @@ public class EstimateService {
         int priceForDistance = distanceInt * PRICE_PER_DISTANCE;
 
         int boxes = getBoxForPackage(dto.getBox(), PackageType.BOX)
+                + getBoxForPackage(dto.getSample(), PackageType.SAMPLE)
                 + getBoxForPackage(dto.getBed(), PackageType.BED)
                 + getBoxForPackage(dto.getBicycle(), PackageType.BICYCLE)
                 + getBoxForPackage(dto.getWashingMachine(), PackageType.WASHING_MACHINE);

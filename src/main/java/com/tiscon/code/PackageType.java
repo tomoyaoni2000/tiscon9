@@ -9,6 +9,8 @@ public enum PackageType implements CodeEnum {
 
     /** 段ボール */
     BOX(1, "段ボール"),
+    /** サンプル */
+    SAMPLE(5, "サンプル"),
     /** ベッド */
     BED(2, "ベッド"),
     /** 自転車 */
