@@ -24,6 +24,16 @@ public class UserOrderDto {
 
     private String bicycle;
 
+    private String shelf;
+
+    private String bookshelf;
+
+    private String table;
+
+    private String refrigerator;
+
+    private String telev;
+
     private String washingMachine;
 
     private boolean washingMachineInstallation;
@@ -114,6 +124,46 @@ public class UserOrderDto {
 
     public void setBicycle(String bicycle) {
         this.bicycle = bicycle;
+    }
+
+    public int getShelf() {
+        return Integer.parseInt(shelf);
+    }
+
+    public void setShelf(String shelf) {
+        this.shelf = shelf;
+    }
+
+    public int getBookshelf() {
+        return Integer.parseInt(bookshelf);
+    }
+
+    public void setBookshelf(String bookshelf) {
+        this.bookshelf = bookshelf;
+    }
+
+    public int getTable() {
+        return Integer.parseInt(table);
+    }
+
+    public void setTable(String table) {
+        this.table = table;
+    }
+
+    public int getRefrigerator() {
+        return Integer.parseInt(refrigerator);
+    }
+
+    public void setRefrigerator(String refrigerator) {
+        this.refrigerator = refrigerator;
+    }
+
+    public int getTelev() {
+        return Integer.parseInt(telev);
+    }
+
+    public void setTelev(String telev) {
+        this.telev = telev;
     }
 
     public int getWashingMachine() {
