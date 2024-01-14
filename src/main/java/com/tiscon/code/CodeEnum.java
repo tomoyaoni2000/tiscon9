@@ -1,7 +1,7 @@
 package com.tiscon.code;
 
 /**
- * コード値を定義したEnumが実装するインタフェース。
+ * コード値を定義したEnumが実装するインタフェース。test
  */
 public interface CodeEnum {
     /**
